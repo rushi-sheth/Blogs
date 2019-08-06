@@ -32,8 +32,6 @@ A hypothesis can be defined as an statement regarding the parameter that we woul
     - Decision using __critical regions__: In this method, we compare the calculated statistic with the critical region in the distribution.
     - Decision using __p value__: Using this method, we do not need to identify the critical region. Instead, we calculate the probability of getting the observed statistic (from previous step) if the null hypothesis were true. The probability can also be interpreted as the probability that our results are due to some random noise. If greater than our significance level, we fail to reject the null. 
 
-**One Sided vs Two sided Tests**
-
 <a id="type1"></a>
 ### Types of Statistics
 
@@ -61,9 +59,7 @@ A parametric test assumes that the data has some underlying distribution, usuall
 <a id="parametric"></a>
 ### Parametric
 
-
-
-<img src='images\stats.png' >
+<img src='images\stats.png'>
 
 
 In this exercise, we will go through how to do hypothesis testing in R for the following tests:
